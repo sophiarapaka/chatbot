@@ -5,7 +5,7 @@ from google.generativeai import GenerativeModel
 from PIL import Image
 
 # Configure Gemini API
-genai.configure(api_key="")#yuour gemini api key
+genai.configure(api_key="")#your gemini api key
 
 # Set up Gemini models
 text_model = genai.GenerativeModel("gemini-pro")
